@@ -1,0 +1,9 @@
+           
+Usage       : RunCmdOnMulThreads.exe   run.bat   C:\Temp\*.log
+  
+              Multiple instances of batch file will be made depending on
+              number of CPUs on the sytem.
+  
+              Prepare a batch file and write commands to be executed in it.
+              The batch file will be run with the filename as parameter.
+              run.bat can be replaced by any executable.
